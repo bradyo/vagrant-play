@@ -21,7 +21,7 @@ wget http://downloads.typesafe.com/play/2.1.1/play-2.1.1.zip
 unzip play-2.1.1.zip
 rm -f play-2.1.1.zip
 
-echo "export PATH=$PATH:/vagrant/play-2.1.1" > ~/.bashrc
+echo "export PATH=$PATH:/vagrant/environment/play-2.1.1" > ~/.bashrc
 source ~/.bashrc
 
 # start play app on port 80
